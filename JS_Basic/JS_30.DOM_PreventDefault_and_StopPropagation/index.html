@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dừng các hành động mặc định của element và dừng thuộc tính nổi bọt</title>
+    <style>
+        ul{
+            display: none;
+        }
+        
+        input:focus~ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!--PreventDefault-->
+    <a href="https://facebook.com">Facebook</a>
+    <br />
+    <a href="https://google.com">Google</a>
+    <!---->
+
+    <!--StopPropagation-->
+    <br>
+    <div>
+        DIV
+        <button>Click me</button>
+    </div>
+    <!---->
+    <script src="./main.js" ></script>
+    
+</body>
+</html>
