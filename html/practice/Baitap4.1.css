@@ -1,0 +1,67 @@
+/* Bài 3 phiếu số 2 */
+body{
+    margin:0px;
+    padding:0px ;
+}
+
+/* Menu trên */
+nav.menutren{
+    width: auto;
+    height: 100%;
+}
+#menu nav.menutren ul.menutren{
+    background-color:blue;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    list-style: none;
+    margin-bottom:0px ;
+}
+#menu nav.menutren ul.menutren li{
+    display: inline;
+}
+#menu nav.menutren ul.menutren li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform:capitalize;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left:  40px;
+    padding-right:  40px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.5s;
+}
+/* menu dưới */
+nav.meuduoi{
+    width: auto;
+    height: 100%;
+}
+#menu nav.menuduoi ul.menuduoi{
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-left:0px;
+    display:none;
+}
+#menu nav.menuduoi ul.menuduoi li{
+    display: inline;
+    
+}
+#menu nav.menuduoi ul.menuduoi li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform:capitalize;
+    padding-left:  40px;
+    padding-right:  40px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: inline-block;
+}
+#menu nav.menutren ul.menutren li :hover {
+    background-color: red;   
+}

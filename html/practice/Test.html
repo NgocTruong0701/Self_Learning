@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+		.header img{
+			width: 100%;
+			height: 100px;
+		}
+
+		.sec-nav{
+			width: 100%;
+			display: flex;
+			height: 600px;
+			justify-content: space-between;
+		}
+		
+		.nav{
+			background-color: #b8d3d3;
+			width: 23%;
+		}
+		.nav ul{
+			list-style-type: none;
+			width: 200px;
+			position: relative;
+		}
+
+		.nav ul > li{
+			height: 60px;
+			line-height: 60px;
+			width: 280px;
+			border-bottom: 2px dotted gray;
+			margin-left: -39px;
+		}
+		.head{
+			border-bottom: 1px solid white;
+			background-color: #286CEB;
+			text-decoration: none;
+			height: 70px;
+			font-size: 23px;
+			line-height: 70px;
+			text-align: center;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			color: black;
+			margin-left: 50px;
+			font-size: 17px;
+		}
+
+		/* .nav ul li a:hover{
+			color: #679DFF;
+		} */
+
+		.nav #cap2{
+			background-color: #66FFCC;
+			position: absolute;
+			left: 284px;
+			top: 185px;
+			display: none;
+		}
+
+		.nav #cap2  li{
+			width: 160px;
+		}
+		.nav #cap2 li a{
+			display: block;
+		}
+
+		.nav ul li:hover #cap2{
+			display: block;
+		}
+
+		.sec{
+			border: 2px solid blue;
+			width: 75%;
+		}
+
+		.tieude{
+			height: 60px;
+			background-color: #DFEBFF;
+			line-height: 60px;
+		}
+
+		.noidung{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			text-align: center;
+		}
+
+		.noidung img{
+			width: 200px;
+			height: 100px;
+
+		}
+		.nd1 a{
+			text-decoration: none;
+		}
+		.nd1{
+
+			margin-top: 40px;
+			width: 200px;
+			height: 200px;
+			text-align: justify;
+		}
+
+		.nd1 #a1{
+			color: black;
+
+		}
+		.nd1 #a2{
+			color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container"> <!-- khoi chua -->
+
+		<div class="header"> <!-- header -->
+			<img src="blackpink.png">
+		</div>
+		<div class="sec-nav">
+			<div class="nav"> <!-- menu  -->
+				<div class="head">
+					<a style="text-decoration: none;color: white;" href="#">DANH MỤC SẢN PHẨM</a>
+				</div>
+			<ul class="left">
+				
+				<li><a href="#">Khuyến mãi</a></li>
+				<li><a href="#">Điện thoại</a></li>
+				<li><a href="#">Máy tính bảng</a></li>
+				<li><a href="#">Máy tính Apple</a>
+					<ul id="cap2">
+						<li><a href="#">Máy tính bảng</a></li>
+						<li><a href="#">Máy tính bảng</a></li>
+						<li><a href="#">Máy tính bảng</a></li>
+						<li><a href="#">Máy tính bảng</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">Máy laptop cũ</a></li>
+				<li><a href="#">Loa chính hãng JBL</a></li>
+				<li><a href="#">Máy đọc sách</a></li>
+				<li><a href="#">Ipad</a></li>
+			</ul>
+			</div>
+
+			<div class="sec"> <!-- secction -->
+				<div class="tieude">
+					<a style="text-decoration:none; font-size:18px;margin-right: 540px;margin-left: 30px; color: black;" href="#">MÁY LAPTOP CŨ</a>
+					<label>Sắp xếp theo:</label>
+						<select>
+							<option>Mới nhất trước</option>
+							<option>Mới nhất trước</option>
+							<option>Mới nhất trước</option>
+						</select>
+
+				</div>
+				<div class="noidung">
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+					<div class="nd1">
+						<img src="samsung.jpg">
+						<p><a id = "a1" href="#">The New Macbook 12inch - 2014infs</a></p>
+						<p><a id="a2" href="#">17,500,000đ</a></p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

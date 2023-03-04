@@ -1,0 +1,106 @@
+/* RESET CSS */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+/* Begin Header */
+header{
+    background-color: rgb(132, 185, 35);
+    text-align: center;
+    width: 100%;
+    height: 135px;
+}
+
+#banner{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+
+.header-heading{
+    text-transform: uppercase;
+    padding-right:100px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+header .box-left{
+    display: flex;
+    align-items: center;
+}
+
+header .box-right{
+    display: inline-block;
+    height: 95px;
+    position: relative;
+    width: 140px;
+}
+
+.menu-header{
+    height: 40px;
+}
+
+.ltruycap{
+    display: flex;
+    margin: 8px 0;
+}
+
+.search{
+    position: absolute;
+    left:0;
+    
+}
+
+.thongtin{
+    font-size:10px;
+}
+
+.search .onhap{
+    width: 110px;
+}
+
+.menu-tren{
+}
+
+.menu-tren li{
+    display: inline-block;
+    list-style-type:square ;
+    mar:20px;
+}
+
+.menu-tren li a{
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size:14px;
+}
+
+.menu-tren li a:hover{
+    color: #805528;
+}
+
+/* End Header */
+
+/* Begin Container */
+
+
+
+
+/* End Container */
+
+/* Begin Footer */
+
+
+
+
+
+/* End Footer */

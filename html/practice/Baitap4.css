@@ -1,0 +1,162 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+div.bai1 p.bai1{
+    border-style:dotted;
+    border-color: red ;
+    width: 400px;
+}
+/* Bài 2 */
+div.bai2 p.bai2{
+    background-color:rgb(82, 255, 255);
+    padding-top:30px;
+}
+/* Bài 3 */
+.bai3{
+    width: 400px;
+}
+.bai3 .lorem{
+    background-color:rgb(108, 245, 255);
+    border-color:rgba(98, 0, 255, 0.74);
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
+    border-style:solid;
+    border-width: 20px;
+}
+
+/* Bài 4 */
+
+h3.header1{
+    display:inline;
+    font-size:50px;
+    color:white;
+}
+h3.header2{
+    display: inline;
+    font-size:50px;
+}
+div.bai4{
+    font-family: 'Segoe UI';
+    background-color: #facfcf;
+    width: 960px;
+    margin:auto;
+}
+header{
+    height: 100px;
+    margin-left:40px;
+    padding-top:20px;
+}
+
+ul.topmenu li{
+    display:inline;
+    margin-right:90px;
+}
+ul.topmenu{
+    height: 50px;
+    background-color: #420000;
+}
+ul.topmenu li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+div.body {
+    display:flex;
+}
+aside{
+    width: 700px;
+    height: 600px;
+    background-color:#9d6f68;
+}
+ul.leftmenu li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    padding-left:2px;
+}
+ul.leftmenu{
+    list-style-type: none;
+    padding-left:2px;
+} 
+ul.leftmenu li{
+    margin-bottom:70px;
+
+}
+section{
+    color:rgb(1, 1, 109);
+    margin-left:8px;
+}
+footer a{
+    color:white;
+    font-size:12px;
+}
+footer span.chen{
+    color:white;
+}
+footer{
+    margin-top: 30px;
+    margin-left:350px;
+    padding-bottom:15px ;
+}
+/* Bài 5 */
+
+table,th,td{
+    border-style: solid;
+    border-color:rgb(151, 62, 62);
+    border-collapse:collapse;
+    border-width:thin;
+
+}
+caption{
+    background-color: orange;
+    font-family: 'Segoe UI';
+    font-size:20px;
+    font-weight:bold;
+}
+table th{
+    background-color:orangered;
+    color:white;
+}
+table{
+    margin:auto;
+}
+
+/* Bài 6 */
+
+#bai6{
+    width: 100%;
+    height: 40px;
+}
+nav.menungang{
+    background-color: blue;
+    width: 100%;
+    height: auto;
+}
+#bai6 nav.menungang ul li{
+    display: inline;
+
+}
+#bai6 nav.menungang ul{
+    width: 100%;
+    height: auto;
+    list-style:none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+#bai6 nav.menungang ul li a {
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    font-size:35px;
+    font-family: Tahoma;
+    display:inline-block;
+    padding:10px 40px;
+    transition:0.5s;
+}
+#bai6 nav.menungang ul li :hover{
+    background-color: red;
+    box-shadow:4px 4px 4px lightslategray;
+}
+

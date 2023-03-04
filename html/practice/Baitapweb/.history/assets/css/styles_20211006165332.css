@@ -1,0 +1,71 @@
+/* RESET CSS */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Begin Header */
+header{
+    background-color: #94b737;
+    text-align: center;
+    width: 100%;
+    height: 135px;
+}
+
+#banner{
+    width: 100%;
+    height: 95px;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.header-heading{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right:100px;
+    line-height:95px;
+
+}
+
+header .box-left{
+    display: inline-block;
+    heigjt
+}
+
+header .box-right{
+    display: inline-block;
+}
+
+.menu-header{
+    height: 40px;
+}
+
+
+.menu-tren li{
+    display: inline-block;
+}
+
+.menu-tren li a{
+    line-height: 40px;
+}
+
+
+/* End Header */
+
+/* Begin Container */
+
+
+
+
+/* End Container */
+
+/* Begin Footer */
+
+
+
+
+
+/* End Footer */

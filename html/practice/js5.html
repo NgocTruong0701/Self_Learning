@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính</title>
+    <style>
+        *{
+            padding : 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>      
+    <div class="calc">
+        <div class="show">0</div>
+        <div class="keys">
+            <button class="so0 keyss">0</button>
+            <button class="so1 keyss">1</button>
+            <button class="so2 keyss">2</button>
+            <button class="so3 keyss">3</button>
+            <button class="so4 keyss">4</button>
+            <button class="so5 keyss">5</button>
+            <button class="so6 keyss">6</button>
+            <button class="so7 keyss">7</button>
+            <button class="so8 keyss">8</button>
+            <button class="so9 keyss">9</button>
+            <button class="total keyss" data-action="add">+</button>
+            <button class="equal keyss" data-action="calculate">=</button>
+            <button class="clean keyss" data-action="clear">AC</button>
+        </div>
+    </div>
+
+    <script>
+        const calc = document.querySelector('.calc');
+        const keys = document.querySelectorAll('.keyss');
+        const show = document.querySelector('.show');
+
+        function firstkey(){
+            keyone = keys;
+        }
+
+        //thu thap so khi an lap qua tung so
+        for(const key of keyss){
+            key.addEventListener('click',firstkey);
+        }
+
+        
+    </script>
+</body>
+</html>

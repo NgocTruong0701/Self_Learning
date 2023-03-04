@@ -1,0 +1,109 @@
+/* RESET CSS */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    background-color: #FACFCF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width:960px;
+    height: 100%;
+}
+/* Begin header */
+header{
+    height: 100px;
+    width: 100%;
+}
+
+.content-menu {
+    height:30px;
+    width: 100%;
+    background: #420000;
+    color: #fff;
+    line-height: 30px;
+}
+
+.banner{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+span.first{
+    color: #fff;
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 0 100px 0 0;
+    font-weight: 500;
+}
+
+
+/* End header */
+
+
+/*  Begin Body */
+.body{
+    display: flex;
+}
+
+.body .slidebar-left{
+    width:204px;
+    
+}
+
+.slidebar-left .slidebar {
+    color:#fff;
+    font-weight: 500;
+    background: #9D6F68;
+    height: 100%;
+    margin-top: 10px;
+    list-style-type: none;
+
+}
+
+.slidebar li{
+    padding-top: 10px;
+    padding-bottom:30px;
+}
+
+.body .content {
+    width: 720px;
+    padding-left:10px;
+}
+
+h3.title{
+    padding-top: 20px 
+}
+
+.box .first-heading{
+    padding: 20px 0;
+}
+
+/*  End Body */
+
+/* Begin Footer */
+#footer{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color:#fff;
+}
+
+#footer ul.footer{
+    list-style-type: none;
+    
+}
+
+#footer ul.footer li{
+    display: inline-block;
+    border-left:1 ;
+}
+
+/* End Footer */

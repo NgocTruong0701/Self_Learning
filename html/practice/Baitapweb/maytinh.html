@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lê Ngọc Trường">
+    <title>Máy tính bằng JavaScript</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        .calculator{
+            width:500px;
+            margin:10px auto;
+        }
+        .calculator__keys {
+            width:100%;
+			position: relative;
+
+            /* other necessary CSS */
+        }
+        div button{
+            width:15%;
+            height:30px;
+            margin-top:5px;
+            display: inline-block;
+        }
+        div .key--equal{
+            height:30px;
+            margin-right:20px;
+        }
+        div button[data-action="clear"]{
+			position: absolute;
+			height: 90%;
+			top: 1;
+			right: -25px;
+			width: 10%;
+        }
+        .calculator__display{
+            width:105%;
+            border:1px solid black;
+            padding:5px 7px;
+            text-align:right;
+            border-radius:4px;
+        }
+        .is-depressed{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Lê Ngọc Trường">
+        <title>Kiểm soát giá trị nhập từ form</title>
+    </head>
+
+    <body>
+        <h2>JavaScript có thể kiểm soát form</h2>
+
+        <p>Hãy nhập số vào hộp text(từ 1 đến 10) : </p>
+
+        <form action="">
+            <input type="number" id="js-input">
+
+            <input type="button" value="Submit" onclick="checkinput()">
+        </form>
+
+        <p id="js-output"></p>
+
+
+        <script>
+            function checkinput(){
+                var x,text;
+                x = document.getElementById("js-input").value;
+
+                if(x < 1 || x > 10){
+                    text = "Dữ liệu sai";
+                }
+                else{
+                    text = "Dữ liệu đúng";
+                }
+
+                document.getElementById("js-output").innerHTML = text;
+            }
+        </script>
+
+    </body>
+</html>

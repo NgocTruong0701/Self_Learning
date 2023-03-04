@@ -1,0 +1,40 @@
+.menutren{
+    background-color: #1a7900;
+    height: 36px;
+    width: 100%;
+}
+ul.menungang{
+    text-align:center;
+    list-style:none;
+    width: 100%;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.menungang li a i.fa.fa-home{
+    color:#fff;
+    font-size:23px;
+
+}
+ul.menungang li{
+    display:inline;
+}
+ul.menungang li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: segoe ui;
+    font-size:18px;
+    color:#fff;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    transition: 0.5s;
+}
+ul.menungang li a:hover{
+    background-color: rgb(1, 77, 1);
+    padding-bottom: 4px;
+}
+
+

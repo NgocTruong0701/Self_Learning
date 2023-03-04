@@ -1,0 +1,44 @@
+/* RESET CSS */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    background-color: #FACFCF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width:960px;
+}
+/* Begin header */
+header{
+    height: 100px;
+}
+
+.content-menu {
+    height:30px;
+}
+
+.banner{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+span
+/* End header */
+
+
+/*  Begin Body */
+.body .slidebar-left{
+    width:204px;
+}
+
+/*  End Body */
+
+/* Begin Footer */
+
+
+/* End Footer */

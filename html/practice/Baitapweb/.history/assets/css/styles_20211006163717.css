@@ -1,0 +1,43 @@
+/* RESET CSS */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Begin Header */
+header{
+    background-color: #94b737;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.header-heading{
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+header .box-right{
+    display: inline-block;
+}
+
+menu-tren 
+/* End Header */
+
+/* Begin Container */
+
+
+
+
+/* End Container */
+
+/* Begin Footer */
+
+
+
+
+
+/* End Footer */

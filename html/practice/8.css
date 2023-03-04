@@ -1,0 +1,35 @@
+h2 {
+    margin-left:100px;
+    width:600px;
+    font-family:Tahoma ;
+}
+h4{
+    margin-left:120px;
+    width: 500px;
+    font-family:Tahoma light;
+    
+}
+ul{
+    margin-left:95px;
+    font-family :Verdana;
+    font-size: 13px;
+    color: rgb(80, 78, 78);
+    width: 656px;
+}
+hr{
+    width:550px;
+    color:rgb(214, 211, 211);
+    margin-left:120px;
+}
+img{
+    width: 550px;
+    margin-left:120px;
+}
+div{
+    margin-left: 120px;
+    font-family:Tahoma ;
+    font-size : 14px;
+    color:gray;
+}
+
+
